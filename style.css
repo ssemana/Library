@@ -1,0 +1,112 @@
+html {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif
+}
+
+body {
+    color: white;
+    background rgb(35, 35, 35);
+}
+
+header {
+    color:  black
+    text-align: left;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.bookForm {
+    display:  flex;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: auto;
+    align-items: center;
+}
+
+@media (max-width: 875px) {
+    .bookForm {
+        flex-direction: column;
+    }
+}
+
+#submitBookForm {
+    margin: 5px;
+    padding: 5px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 620px) {
+    #submitBookForm {
+        flex-direction: column;
+    }
+}
+
+.formInputs {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    margin: 2px;
+    padding: 2px;
+}
+
+@media (max-width: 800px) {
+    .formInputs {
+        width: 45%;
+    }
+}
+
+@media (max-width: 620px) {
+    .formInputs {
+        width: auto;
+    }
+}
+
+.books {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.aBook {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    width: 200px;
+    border: 2px solid rgb(100, 100, 100);
+    margin: 5px;
+    padding: 5px;
+}
+
+.formButton {
+    width: 12.5 rem;
+    height: 3rem;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-grow: 4;
+    }
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
