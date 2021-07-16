@@ -9,13 +9,13 @@ body {
 }
 
 header {
-    color:  black
     text-align: left;
 }
 
 .container {
     display: flex;
     flex-direction: column;
+    padding-left: 5px;
 }
 
 .bookForm {
